@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif "Arial";
+}
+
+.game-title,
+.game-status {
+    text-align: center;
+}
+
+.game-status {
+    color: gray;
+}
+
+.game-board {
+    height: 350px;
+    width: 350px;
+    border-style: solid;
+    margin: auto;
+    text-align: center;
+}
+
+.game-boxex {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 12px;
+    grid-gap: 4px;
+}
+
+.cell {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border: 3px dotted red;
+    font-size: 4rem;
+    font-family: "Permanent Marker", cursive;
+}
+
+.cell:hover {
+    background-color: gray;
+    opacity: .4;
+}
